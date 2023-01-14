@@ -1,7 +1,18 @@
-html {
+/* GLOBAL CHARACTERISTICS */
+:root {
     font-family:Open Sans;
 }
 
+/* NAVBAR CHARACTERISTICS */
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    background-color:aliceblue;
+}
+
+/* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
     background-color:darkcyan;
     min-height: 180px;
