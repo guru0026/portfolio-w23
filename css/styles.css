@@ -16,22 +16,34 @@
 }
 
 .navbar-brand {
-    background-color:var(--tert);
+    padding: 0px;
 }
 
 .nav-link {
     color: var(--sec);
-    padding: 23px;
+    padding: 15px;
 }
 
 .active {
     background-color: #FF9D00;
     color: var(--sec);
+    padding: 15px;
 }
 
 .navlink :hover {
     color: var(--tert);
 }
+
+.navbar-toggler {
+    color: var(--tert);
+    padding: 0px;
+    font-size: 30px;
+}
+
+.navbar-toggler :hover {
+    color: var(--sec);
+} 
+
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
