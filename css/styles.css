@@ -1,24 +1,42 @@
 /* GLOBAL CHARACTERISTICS */
 :root {
     font-family:Open Sans;
+    --prim: #00003B;
+    --sec: #FF9D00;
+    --tert: #E4EFEE;
+    --quat: #ffffff;
 }
 
 /* NAVBAR CHARACTERISTICS */
 .navbar {
-    background-color: black;
+    background-color: var(--prim);
+    max-height: 69px;
 }
 
 .navbar-brand {
-    background-color:aliceblue;
+    background-color:var(--tert);
+}
+
+.nav-link {
+    color: var(--sec);
+}
+
+.active {
+    background-color: #FF9D00;
+    color: var(--sec);
 }
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
-    background-color:darkcyan;
+    background-color:var(--tert);
     min-height: 180px;
 }
 
 .prime {
-    background-color:cornflowerblue;
+    background-color:var(--sec);
     min-height: 360px;
+}
+
+.break {
+    background-color: var(--quat);
 }
