@@ -1,0 +1,8 @@
+html {
+    font-family:Open Sans;
+}
+
+.tile {
+    background-color:darkcyan;
+    min-height:50px;
+}
