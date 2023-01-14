@@ -10,7 +10,9 @@
 /* NAVBAR CHARACTERISTICS */
 .navbar {
     background-color: var(--prim);
-    max-height: 69px;
+    box-sizing: border-box;
+    padding: 0px;
+    /* max-height: 69px; */
 }
 
 .navbar-brand {
@@ -19,11 +21,16 @@
 
 .nav-link {
     color: var(--sec);
+    padding: 23px;
 }
 
 .active {
     background-color: #FF9D00;
     color: var(--sec);
+}
+
+.navlink :hover {
+    color: var(--tert);
 }
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
