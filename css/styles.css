@@ -12,22 +12,57 @@
     background-color: var(--prim);
     box-sizing: border-box;
     padding: 0px;
-    /* max-height: 69px; */
+    font-weight: 500;
 }
 
 .navbar-brand {
     padding: 0px;
+    animation: nodding 1s infinite;
+    animation-timing-function: linear;
+}
+
+.navbar-brand :hover {
+    animation: shaking 0.7s infinite;
+    animation-timing-function: linear;
+}
+
+/* DEFINES LOGO ANIMATION FRAMES */
+@keyframes nodding {
+    0% {transform: rotate(0deg);}
+  25% {transform: rotate(5deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes shaking {
+    0% {transform: rotate(0deg);}
+  25% {transform: rotate(15deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(-15deg);}
+  100% {transform: rotate(0deg);}
 }
 
 .nav-link {
-    color: var(--sec);
+    color: var(--tert);
     padding: 15px;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: var(--tert);
+}
+
+nav a:hover {
+    color: var(--sec);
 }
 
 .active {
     background-color: #FF9D00;
     color: var(--sec);
     padding: 15px;
+    font-weight: 700;
+    border-top-right-radius: 20px;
 }
 
 .navlink :hover {
@@ -44,18 +79,58 @@
     color: var(--sec);
 } 
 
-
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
     background-color:var(--tert);
     min-height: 180px;
+    border-top-right-radius: 25px;
+    border-color: var(--prim);
+    border-width: thin medium thick 10px;
 }
 
 .prime {
     background-color:var(--sec);
     min-height: 360px;
+    border-bottom-right-radius: 25px;
 }
 
 .break {
     background-color: var(--quat);
+}
+
+/* BOOTSRAP FOOTER GRID CHARACTERISTICS */
+
+footer {
+    background-color: var(--prim);
+    min-height: 50px;
+    padding-top: 15px;
+}
+
+footer a:link, footer a:visited {
+    text-decoration: none;
+    color: var(--tert);
+}
+
+footer a:hover, p:hover {
+    color: var(--sec);
+}
+
+.copyright p {
+    font-weight:200;
+    color: var(--tert);
+    margin: 10px 0px 0px 15px;
+}
+
+.copyright img {
+    margin-top: 4px;
+}
+
+.copyright, .social {
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 0px 0px;
+    font-size: 30px;
+    border-radius: 5%;
 }
