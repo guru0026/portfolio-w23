@@ -110,20 +110,35 @@ nav a:hover {
     border-color: var(--prim); */
 }
 
+.prime:hover {
+    transform: scale(1.07);
+    color: var(--sec);
+}
+
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
 .photography .prime {
     background-image: url(/images/photography/road/road.jpg)
 } 
 
-/* GRAPHIC DESIGN CLUSTER IMAGE PATHS */
-.graphic-design .prime {
-    background-image: url(/images/graphic-design/batman/batman.jpg);
+.photography .cluster:nth-child(2) .tile:nth-child(1) {
+    content: url(/images/photography/copper/copper-75w.jpg)
 }
 
-.prime:hover {
-    transform: scale(1.15);
-    color: var(--sec);
+.photography .cluster:nth-child(2) .tile:nth-child(1) {
+    content: url(/images/photography/copper/copper-75w.jpg)
 }
+
+/* GRAPHIC DESIGN CLUSTER IMAGE PATHS */
+.graphic-design .prime {
+    background-image: url(/images/graphic-design/batman/batman02.jpg);
+}
+
+/* UX DESIGN CLUSTER IMAGE PATHS */
+.ux .prime {
+    background-image: url(/images/ux/crackle/crackle02.jpg);
+}
+
+
 
 
 /* BOOTSRAP FOOTER GRID CHARACTERISTICS  */
