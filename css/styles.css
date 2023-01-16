@@ -13,6 +13,9 @@
     box-sizing: border-box;
     padding: 0px;
     font-weight: 500;
+    position:fixed;
+    z-index: 9;
+    width: 100vw;
     /* box-shadow: 0px 2px var(--sec) inset; */
 }
 
@@ -117,12 +120,13 @@ nav a:hover {
 
 .text-tile {
     background-color: var(--sec);
+    padding-left: .7rem;
     /* background-image: url(/images/photography/road/road.jpg); */
     background-position: center;
     background-size: cover;
     transition: transform .4s ease;
     /* content:url(/images/photography/road/road.jpg); */
-    /* min-height: 360px; */
+    max-height:3rem;
     border-bottom-right-radius: 25px;
     box-shadow: 5px 5px var(--prim);
     color: var(--tert);
@@ -130,7 +134,48 @@ nav a:hover {
     border-color: var(--prim); */
 }
 
+/* UX DESIGN CLUSTER IMAGE PATHS */
+.ux .prime {
+    content: url(/images/ux/crackle/crackle02.jpg);
+}
+
+.ux .cluster:nth-child(3) .tile:nth-child(1) {
+    content: url(/images/ux/crackle/crackle07.jpg);
+}
+
+.ux .cluster:nth-child(3) .tile:nth-child(2) {
+    content: url(/images/ux/crackle/crackle03.jpg);
+}
+
+.ux .cluster:nth-child(5) .tile:nth-child(1) {
+    content: url(/images/ux/crackle/crackle04.jpg);
+}
+
+.ux .cluster:nth-child(5) .tile:nth-child(2) {
+    content: url(/images/ux/crackle/crackle05.jpg);
+}
+
+.ux .cluster:nth-child(6) .tile:nth-child(1) {
+    content: url(/images/ux/crackle/crackle06.jpg);
+}
+
+.ux .cluster:nth-child(6) .tile:nth-child(2) {
+    content: url(/images/ux/hr/hr01.jpg);
+}
+
+.ux .cluster:nth-child(7) .tile:nth-child(1) {
+    content: url(/images/ux/hr/hr02.jpg);
+}
+
+.ux .cluster:nth-child(7) .tile:nth-child(2) {
+    content: url(/images/ux/hr/hr03.jpg);
+}
+
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
+
+.ux .text-tile {
+    margin-top: 53px;
+}
 .photography .prime {
     content: url(/images/photography/road/road.jpg);
 } 
@@ -152,7 +197,7 @@ nav a:hover {
 }
 
 .photography .cluster:nth-child(5) .tile:nth-child(1) {
-    content: url(/images/photography/chess/chess.jpg);
+    content: url(/images/photography/misc/leap.jpg);
 }
 
 .photography .cluster:nth-child(5) .tile:nth-child(2) {
@@ -160,7 +205,7 @@ nav a:hover {
 }
 
 .photography .cluster:nth-child(6) .tile:nth-child(1) {
-    content: url(/images/photography/misc/leap.jpg);
+    content: url(/images/photography/chess/chess.jpg);
 }
 
 .photography .cluster:nth-child(6) .tile:nth-child(2) {
@@ -172,41 +217,75 @@ nav a:hover {
     content: url(/images/graphic-design/batman/batman02.jpg);
 }
 
-.graphic-design .cluster:nth-child(2) .tile:nth-child(1) {
+.graphic-design .cluster:nth-child(3) .tile:nth-child(1) {
     content: url(/images/graphic-design/kayotea/Kayotea_Hari.jpg);
 }
 
-.graphic-design .cluster:nth-child(2) .tile:nth-child(2) {
-    content: url(/images/graphic-design/batman/batman02.jpg);
-}
-
-.graphic-design .cluster:nth-child(4) .tile:nth-child(1) {
-    content: url(/images/graphic-design/scaredycat/scaredycat.jpg);
-}
-
-.graphic-design .cluster:nth-child(4) .tile:nth-child(2) {
-    content: url(/images/graphic-design/scaredycat/cat.jpg);
-}
-
-.graphic-design .cluster:nth-child(5) .tile:nth-child(1) {
-    content: url(/images/graphic-design/scifi/scifi.jpg);
-}
-
-.graphic-design .cluster:nth-child(5) .tile:nth-child(2) {
-    content: url(/images/graphic-design/card/card.jpg);
-}
-
-.graphic-design .cluster:nth-child(6) .tile:nth-child(1) {
+.graphic-design .cluster:nth-child(3) .tile:nth-child(2) {
     content: url(/images/graphic-design/hybrid/hybrid.jpg);
 }
 
-/* UX DESIGN CLUSTER IMAGE PATHS */
-.ux .prime {
-    background-image: url(/images/ux/crackle/crackle02.jpg);
+.graphic-design .cluster:nth-child(5) .tile:nth-child(1) {
+    content: url(/images/graphic-design/scaredycat/scaredycat.jpg);
 }
 
+.graphic-design .cluster:nth-child(5) .tile:nth-child(2) {
+    content: url(/images/graphic-design/scaredycat/cat.jpg);
+}
 
+.graphic-design .cluster:nth-child(6) .tile:nth-child(1) {
+    content: url(/images/graphic-design/scifi/scifi.jpg);
+}
 
+.graphic-design .cluster:nth-child(6) .tile:nth-child(2) {
+    content: url(/images/graphic-design/card/card.jpg);
+}
+
+/* VIDEOGRAPHY CLUSTER PATHS */
+.videography .prime {
+    content: url(/images/video/video01.jpg);
+}
+
+.videography .cluster:nth-child(3) .tile:nth-child(1) {
+    content: url(/images/video/video02.jpg);
+}
+
+/* ARCHITECTURE CLUSTER IMAGE PATHS */
+.arch .prime {
+    content: url(/images/architecture/01/01.jpg);
+}
+
+.arch .cluster:nth-child(3) .tile:nth-child(1) {
+    content: url(/images/architecture/02/02.jpg);
+}
+
+.arch .cluster:nth-child(3) .tile:nth-child(2) {
+    content: url(/images/architecture/03/03.jpg);
+}
+
+.arch .cluster:nth-child(5) .tile:nth-child(1) {
+    content: url(/images/architecture/09/09.jpg);
+}
+
+.arch .cluster:nth-child(5) .tile:nth-child(2) {
+    content: url(/images/architecture/04/04.jpg);
+}
+
+.arch .cluster:nth-child(6) .tile:nth-child(1) {
+    content: url(/images/architecture/06/06.jpg);
+}
+
+.arch .cluster:nth-child(6) .tile:nth-child(2) {
+    content: url(/images/architecture/05/05.jpg);
+}
+
+.arch .cluster:nth-child(7) .tile:nth-child(1) {
+    content: url(/images/ux/hr/hr02.jpg);
+}
+
+.arch .cluster:nth-child(7) .tile:nth-child(2) {
+    content: url(/images/ux/hr/hr03.jpg);
+}
 
 /* BOOTSRAP FOOTER GRID CHARACTERISTICS  */
 
