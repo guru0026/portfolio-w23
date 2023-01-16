@@ -16,6 +16,7 @@
     position:fixed;
     z-index: 9;
     width: 100vw;
+    /* margin: 0px; */
     /* box-shadow: 0px 2px var(--sec) inset; */
 }
 
@@ -52,13 +53,13 @@
     padding: 15px;
 }
 
-nav a:link, nav a:visited {
+.navbar a:link, nav a:visited {
     text-decoration: none;
     color: var(--tert);
 }
 
-nav a:hover {
-    color: var(--sec);
+.navbar a:hover {
+    color: var(--sec) !important;
 }
 
 .active {
@@ -69,8 +70,8 @@ nav a:hover {
     border-top-right-radius: 20px;
 }
 
-.navlink :hover {
-    color: var(--tert);
+.navbar .navbar-nav .active:hover {
+    color: var(--tert) !important;
 }
 
 .navbar-toggler {
@@ -82,6 +83,33 @@ nav a:hover {
 .navbar-toggler :hover {
     color: var(--sec);
 } 
+
+/* BANNER CHARACTERISTICS */
+.index-intro {
+    width: 100vw;
+    background-color: var(--prim);
+}
+
+.index-intro .jumbotron {
+    width: 100%;
+    background-color: var(--prim);
+    color: var(--tert);
+    margin: 0px;
+    padding: 2rem 0rem; 
+}
+
+.index-intro .jumbotron h1, .index-intro .jumbotron p {
+    /* text-align: center; */
+}
+
+.index-intro .jumbotron h1 {
+    font-size: 2.7rem;
+}
+
+
+.index-intro .jumbotron .row .lit-logo {
+    content: url(/images/logo/logo-jumbotron.png) !important;
+}
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
@@ -134,6 +162,10 @@ nav a:hover {
     border-color: var(--prim); */
 }
 
+main {
+    padding-top: 49px;
+}
+
 /* UX DESIGN CLUSTER IMAGE PATHS */
 .ux .prime {
     content: url(/images/ux/crackle/crackle02.jpg);
@@ -173,9 +205,6 @@ nav a:hover {
 
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
 
-.ux .text-tile {
-    margin-top: 53px;
-}
 .photography .prime {
     content: url(/images/photography/road/road.jpg);
 } 
@@ -293,6 +322,7 @@ footer {
     background-color: var(--prim);
     min-height: 50px;
     padding-top: 15px;
+    margin-top: 5px;
 }
 
 footer a:link, footer a:visited {
