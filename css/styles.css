@@ -123,7 +123,7 @@
 }
 
 .index-intro .jumbotron .row .lit-logo {
-    content: url(/images/logo/logo-jumbotron.png) !important;
+    content: url(images/logo/logo-jumbotron.png) !important;
 }
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
