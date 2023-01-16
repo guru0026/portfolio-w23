@@ -117,15 +117,39 @@ nav a:hover {
 
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
 .photography .prime {
-    background-image: url(/images/photography/road/road.jpg)
+    background-image: url(/images/photography/road/road.jpg);
 } 
 
 .photography .cluster:nth-child(2) .tile:nth-child(1) {
-    content: url(/images/photography/copper/copper-75w.jpg)
+    content: url(/images/photography/copper/copper.jpg);
 }
 
-.photography .cluster:nth-child(2) .tile:nth-child(1) {
-    content: url(/images/photography/copper/copper-75w.jpg)
+.photography .cluster:nth-child(2) .tile:nth-child(2) {
+    content: url(/images/photography/shadow/shadow02.jpg);
+}
+
+.photography .cluster:nth-child(5) .tile:nth-child(1) {
+    content: url(/images/photography/chess/chess.jpg);
+}
+
+.photography .cluster:nth-child(5) .tile:nth-child(2) {
+    content: url(/images/photography/stairs/stairs.jpg);
+}
+
+.photography .cluster:nth-child(4) .tile:nth-child(1) {
+    content: url(/images/photography/misc/lighter.jpg);
+}
+
+.photography .cluster:nth-child(4) .tile:nth-child(2) {
+    content: url(/images/photography/misc/cave.jpg);
+}
+
+.photography .cluster:nth-child(6) .tile:nth-child(1) {
+    content: url(/images/photography/misc/leap.jpg);
+}
+
+.photography .cluster:nth-child(6) .tile:nth-child(2) {
+    content: url(/images/photography/misc/leo.jpg);
 }
 
 /* GRAPHIC DESIGN CLUSTER IMAGE PATHS */
