@@ -115,17 +115,40 @@ nav a:hover {
     color: var(--sec);
 }
 
+.text-tile {
+    background-color: var(--sec);
+    /* background-image: url(/images/photography/road/road.jpg); */
+    background-position: center;
+    background-size: cover;
+    transition: transform .4s ease;
+    /* content:url(/images/photography/road/road.jpg); */
+    /* min-height: 360px; */
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 5px var(--prim);
+    color: var(--tert);
+    /* border-width: 25px;
+    border-color: var(--prim); */
+}
+
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
 .photography .prime {
-    background-image: url(/images/photography/road/road.jpg);
+    content: url(/images/photography/road/road.jpg);
 } 
 
-.photography .cluster:nth-child(2) .tile:nth-child(1) {
+.photography .cluster:nth-child(3) .tile:nth-child(1) {
     content: url(/images/photography/copper/copper.jpg);
 }
 
-.photography .cluster:nth-child(2) .tile:nth-child(2) {
+.photography .cluster:nth-child(3) .tile:nth-child(2) {
     content: url(/images/photography/shadow/shadow02.jpg);
+}
+
+.photography .cluster:nth-child(7) .tile:nth-child(1) {
+    content: url(/images/photography/misc/cave.jpg);
+}
+
+.photography .cluster:nth-child(7) .tile:nth-child(2) {
+    content: url(/images/photography/stairs/stairs.jpg);
 }
 
 .photography .cluster:nth-child(5) .tile:nth-child(1) {
@@ -133,15 +156,7 @@ nav a:hover {
 }
 
 .photography .cluster:nth-child(5) .tile:nth-child(2) {
-    content: url(/images/photography/stairs/stairs.jpg);
-}
-
-.photography .cluster:nth-child(4) .tile:nth-child(1) {
     content: url(/images/photography/misc/lighter.jpg);
-}
-
-.photography .cluster:nth-child(4) .tile:nth-child(2) {
-    content: url(/images/photography/misc/cave.jpg);
 }
 
 .photography .cluster:nth-child(6) .tile:nth-child(1) {
@@ -154,7 +169,35 @@ nav a:hover {
 
 /* GRAPHIC DESIGN CLUSTER IMAGE PATHS */
 .graphic-design .prime {
-    background-image: url(/images/graphic-design/batman/batman02.jpg);
+    content: url(/images/graphic-design/batman/batman02.jpg);
+}
+
+.graphic-design .cluster:nth-child(2) .tile:nth-child(1) {
+    content: url(/images/graphic-design/kayotea/Kayotea_Hari.jpg);
+}
+
+.graphic-design .cluster:nth-child(2) .tile:nth-child(2) {
+    content: url(/images/graphic-design/batman/batman02.jpg);
+}
+
+.graphic-design .cluster:nth-child(4) .tile:nth-child(1) {
+    content: url(/images/graphic-design/scaredycat/scaredycat.jpg);
+}
+
+.graphic-design .cluster:nth-child(4) .tile:nth-child(2) {
+    content: url(/images/graphic-design/scaredycat/cat.jpg);
+}
+
+.graphic-design .cluster:nth-child(5) .tile:nth-child(1) {
+    content: url(/images/graphic-design/scifi/scifi.jpg);
+}
+
+.graphic-design .cluster:nth-child(5) .tile:nth-child(2) {
+    content: url(/images/graphic-design/card/card.jpg);
+}
+
+.graphic-design .cluster:nth-child(6) .tile:nth-child(1) {
+    content: url(/images/graphic-design/hybrid/hybrid.jpg);
 }
 
 /* UX DESIGN CLUSTER IMAGE PATHS */
