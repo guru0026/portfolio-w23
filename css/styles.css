@@ -189,6 +189,19 @@ main {
     padding-top: 49px;
 }
 
+/* ABOUT ME - SUMMARY FORMAT */
+
+.summary p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.contact h3{
+    padding-left: 2rem;
+}
+
+
 /* CAROUSEL CLUSTER IMAGE PATHS */
 .car .cluster:nth-child(2) .tile:nth-child(1) {
     content: url(../images/ux/crackle/crackle02.jpg);
@@ -359,6 +372,12 @@ main {
 
 .arch .cluster:nth-child(7) .tile:nth-child(2) {
     content: url(../images/ux/hr/hr03.jpg);
+}
+
+
+/* ABOUT-PAGE CLUSTER IMAGE PATHS */
+.about .prime {
+    content: url(../images/about01.jpg);
 }
 
 /* BOOTSRAP FOOTER GRID CHARACTERISTICS  */
