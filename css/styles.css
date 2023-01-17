@@ -399,10 +399,16 @@ footer a:hover, p:hover {
     color: var(--sec);
 }
 
-.copyright p, .links a {
+.copyright p {
     font-weight:200;
     color: var(--tert);
     margin: 10px 0px 0px 15px;
+}
+
+footer .links {
+    font-weight: 200;
+    padding-top: .6rem;
+    margin-bottom: .8rem;
 }
 
 .copyright img {
