@@ -62,7 +62,7 @@
     color: var(--sec) !important;
 }
 
-.active {
+.navbar .active {
     background-color: #FF9D00;
     color: var(--sec);
     padding: 15px;
@@ -156,6 +156,14 @@
     border-color: var(--prim); */
 }
 
+.index-intro {
+    margin-bottom: 4rem;;
+}
+
+.carousel {
+    box-shadow: 5px 5px var(--sec);
+}
+
 .prime:hover {
     transform: scale(1.07);
     color: var(--sec);
@@ -180,6 +188,28 @@
 main {
     padding-top: 49px;
 }
+
+/* CAROUSEL CLUSTER IMAGE PATHS */
+.car .cluster:nth-child(2) .tile:nth-child(1) {
+    content: url(../images/ux/crackle/crackle02.jpg);
+}
+
+.car .cluster:nth-child(2) .tile:nth-child(2) {
+    content: url(../images/architecture/resort.jpg);
+}
+
+.car .cluster:nth-child(4) .tile:nth-child(1) {
+    content: url(../images/graphic-design/hybrid/hybrid.jpg);
+}
+
+.car .cluster:nth-child(4) .tile:nth-child(2) {
+    content: url(../images/photography/road/road01.jpg);
+}
+
+.car .cluster:nth-child(5) .tile:nth-child(1) {
+    content: url(../images/photography/misc/leap.jpg);
+}
+
 
 /* UX DESIGN CLUSTER IMAGE PATHS */
 .ux .prime {
