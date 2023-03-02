@@ -2,7 +2,7 @@
 :root {
     font-family:Open Sans;
     --prim: #00003B;
-    --sec: #ddff00;
+    --sec: #ff9933;
     --tert: #E4EFEE;
     --quat: #ffffff;
 }
@@ -50,7 +50,7 @@
 
 .nav-link {
     color: var(--tert);
-    padding: 15px;
+    margin-top: .3rem;
 }
 
 .navbar a:link, .navbar a:visited {
@@ -63,11 +63,12 @@
 }
 
 .navbar .active {
-    background-color: #FF9D00;
+    background-color: var(--sec);
     color: var(--sec);
-    padding: 15px;
+    margin-top: .7rem;
+    padding: .1rem;
     font-weight: 700;
-    border-top-right-radius: 20px;
+    border-radius: 2rem;
 }
 
 .navbar .navbar-nav .active:hover {
@@ -98,9 +99,16 @@
     padding: 2rem 0rem; 
 }
 
-.index-intro .jumbotron h1, .index-intro .jumbotron p {
+.index-intro .jumbotron h1, .index-intro .jumbotron p, h1 {
     text-align: center;
 }
+
+section h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--prim);
+}
+
 
 .index-intro .jumbotron h1 {
     font-size: 3rem;
@@ -117,14 +125,12 @@
     color: var(--sec);
 }
 
-.index-intro .jumbotron a:hover {
-    text-decoration: none;
-    color: var(--tert);
+.index-intro .jumbotron .lit-border {
+    content: url(../images/logo/mountain-contour.svg) !important;
 }
 
-.index-intro .jumbotron {
-    background: url(../images/logo/svgbanner.svg) !important;
-    background-size: cover;
+.index-intro .jumbotron .lit-logo {
+    content: url(../images/logo/svgbanner.svg) !important;
 }
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
@@ -136,6 +142,18 @@
     border-width: 10px !important;
     box-shadow: 5px 5px var(--tert);
     transition: transform .4s ease;
+}
+
+.jumbotron button {
+    border-radius: 2rem !important;
+    border-color: var(--sec) !important;
+    color: var(--sec) !important;
+    font-weight: 700 !important;
+}
+
+button:hover {
+    background-color: var(--sec)!important;
+    color: var(--prim)!important;
 }
 
 .tile:hover {
@@ -187,7 +205,7 @@
 }
 
 main {
-    padding-top: 49px;
+    padding-top: 20px;
 }
 
 /* ABOUT ME - SUMMARY FORMAT */
@@ -398,7 +416,7 @@ footer a:link, footer a:visited {
     color: var(--tert);
 }
 
-footer a:hover, p:hover {
+footer a:hover {
     color: var(--sec);
 }
 
