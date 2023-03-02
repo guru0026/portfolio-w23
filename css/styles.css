@@ -137,11 +137,11 @@ section h1 {
 .tile {
     content:url(../images/photography/chess/chess.jpg);
     /* min-height: 180px; */
-    border-top-right-radius: 25px;
-    border-color: var(--prim) !important;
-    border-width: 10px !important;
-    box-shadow: 5px 5px var(--tert);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 1px 1px 1px 1px var(--tert);
     transition: transform .4s ease;
+    /* margin: 5px; */
+    padding: 5px;
 }
 
 .jumbotron button {
