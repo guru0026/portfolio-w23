@@ -122,8 +122,9 @@
     color: var(--tert);
 }
 
-.index-intro .jumbotron .row .lit-logo {
-    content: url(../images/logo/svgbanner.svg) !important;
+.index-intro .jumbotron {
+    background: url(../images/logo/svgbanner.svg) !important;
+    background-size: cover;
 }
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
