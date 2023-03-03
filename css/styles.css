@@ -1,6 +1,6 @@
 /* GLOBAL CHARACTERISTICS */
 :root {
-    font-family:Open Sans;
+    font-family:'Outfit', sans-serif !important;
     --prim: #00003B;
     --sec: #ff9933;
     --tert: #E4EFEE;
@@ -51,6 +51,8 @@
 .nav-link {
     color: var(--tert);
     margin-top: .3rem;
+    font-family: 'Lexend', sans-serif !important;
+    font-weight: 600 !important;
 }
 
 .navbar a:link, .navbar a:visited {
@@ -99,14 +101,26 @@
     padding: 2rem 0rem; 
 }
 
-.index-intro .jumbotron h1, .index-intro .jumbotron p, h1 {
+.index-intro .jumbotron h1, .index-intro .jumbotron p {
     text-align: center;
+    font-family: 'Lexend', sans-serif !important;
+}
+
+.index-intro .jumbotron h1 {
+    font-size: 1.8rem !important;
+    padding-top: 1rem;
+}
+
+.index-intro .jumbotron p {
+    /* font-weight: 300 !important; */
 }
 
 section h1 {
+    font-family: 'Lexend', sans-serif;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--prim);
+    margin-top: -3rem !important;
 }
 
 
@@ -114,6 +128,13 @@ section h1 {
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 2rem;
+}
+
+.myName {
+    font-family: 'Rock Salt', sans-serif;
+    font-weight: 700;
+    color: var(--quat) !important;
+    text-align: center !important;
 }
 
 .index-intro .jumbotron p {
@@ -138,17 +159,18 @@ section h1 {
     content:url(../images/photography/chess/chess.jpg);
     /* min-height: 180px; */
     border-radius: 25px 25px 25px 25px;
-    box-shadow: 1px 1px 1px 1px var(--tert);
+    box-shadow: 2px 2px 0px 0px var(--tert);
     transition: transform .4s ease;
-    /* margin: 5px; */
-    padding: 5px;
+    /* margin: 1.5rem; */
+    padding: .4rem;
 }
 
 .jumbotron button {
     border-radius: 2rem !important;
     border-color: var(--sec) !important;
     color: var(--sec) !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
+    font-family: 'Lexend', sans-serif !important;
 }
 
 button:hover {
