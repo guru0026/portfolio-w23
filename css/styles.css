@@ -1,8 +1,19 @@
 /* GLOBAL CHARACTERISTICS */
 :root {
     font-family:'Outfit', sans-serif !important;
-    --prim: #00003B;
-    --sec: #ff9933;
+    /* --prim: #00003B; */
+    /* --prim: #000000; */
+    /* --prim: #00031e;
+    --prim: #000320; */
+    --prim: #000426;
+    /* --sec: #ff9933; */
+    /* --sec: #ffff33; */
+    /* --sec: #ffd187; */
+    /* --sec: #d3e784; */
+    /* --sec: #f8c668;
+    --sec: #f6f2a3; */
+    /* --sec: #ffb833; */
+    --sec: #fdae11;
     --tert: #E4EFEE;
     --quat: #ffffff;
 }
@@ -73,7 +84,7 @@
 }
 
 .navbar .navbar-nav .active:hover {
-    color: var(--tert) !important;
+    color: var(--quat) !important;
 }
 
 nav .navbar-toggler {
@@ -137,6 +148,20 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     text-align: center !important;
 }
 
+.aboutBanner {
+    background-image: url(../images/aboutbanner.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.aboutBanner-text h1, .aboutBanner-text p{
+    color: var(--quat) !important;
+    text-align: left  !important;
+    /* background-color: rgba(104, 104, 104, 0.2) !important;
+     */
+    text-shadow: .05rem .05rem #4a628e !important;
+}
+
 .index-intro .jumbotron p {
     font-size: 1.1rem;
 }
@@ -153,6 +178,10 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
 .index-intro .jumbotron .lit-logo {
     content: url(../images/logo/svgbanner.svg) !important;
 }
+
+/* .index-intro .jumbotron .about-photo { */
+    /* content: url(../images/aboutbannerb.jpg) !important;
+} */
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
@@ -439,9 +468,9 @@ main {
 
 
 /* ABOUT-PAGE CLUSTER IMAGE PATHS */
-.about .prime {
+/* .about .prime {
     content: url(../images/about01.jpg);
-}
+} */
 
 /* BOOTSRAP FOOTER GRID CHARACTERISTICS  */
 
