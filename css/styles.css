@@ -16,10 +16,23 @@
     --sec: #fdae11;
     --tert: #E4EFEE;
     --quat: #ffffff;
+    --quin: #e6d6a818;
 }
 
 /* NAVBAR CHARACTERISTICS */
 .navbar {
+    background-color: var(--prim);
+    box-sizing: border-box;
+    padding: 0px;
+    font-weight: 500;
+    position:fixed;
+    z-index: 9;
+    width: 100vw;
+    /* margin: 0px; */
+    /* box-shadow: 0px 2px var(--sec) inset; */
+}
+
+.navbar-secondary {
     background-color: var(--prim);
     box-sizing: border-box;
     padding: 0px;
@@ -148,6 +161,13 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     text-align: center !important;
 }
 
+.myName-about {
+    font-family: 'Rock Salt', sans-serif;
+    font-weight: 700;
+    color: var(--sec) !important;
+    text-align: center !important;
+}
+
 .aboutBanner {
     background-image: url(../images/aboutbannerc.jpg) !important;
     background-size: cover !important;
@@ -185,7 +205,7 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
 
 /* BOOTSTRAP CHECKERED-GRID CHARACTERISTICS */
 .tile {
-    content:url(../images/photography/chess/chess.jpg);
+    background-color: var(--quin);
     /* min-height: 180px; */
     border-radius: 2rem;
     box-shadow: 2px 2px 0px 0px var(--tert);
@@ -231,7 +251,7 @@ div .lit-text button:hover {
 }
 
 .cluster {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem !important;
 }
 
 /* .carousel {
@@ -295,23 +315,23 @@ main {
 }
 
 /* CAROUSEL CLUSTER IMAGE PATHS */
-.car .cluster:nth-child(2) .tile:nth-child(1) {
-    content: url(../images/ux/crackle/crackle02.jpg);
+.cluster .row .tile:nth-child(1) {
+    content: url(../images/graphic-design/localheroes/lhlogo.jpg);
 }
 
-.car .cluster:nth-child(2) .tile:nth-child(2) {
+.cluster .row .tile:nth-child(2) {
     content: url(../images/architecture/resort.jpg);
 }
 
-.car .cluster:nth-child(4) .tile:nth-child(1) {
+.cluster .row .tile:nth-child(3) {
     content: url(../images/graphic-design/hybrid/hybrid.jpg);
 }
 
-.car .cluster:nth-child(4) .tile:nth-child(2) {
+.cluster .row .tile:nth-child(4) {
     content: url(../images/photography/road/road01.jpg);
 }
 
-.car .cluster:nth-child(5) .tile:nth-child(1) {
+.cluster .row .tile:nth-child(5) {
     content: url(../images/photography/misc/leap.jpg);
 }
 
@@ -464,6 +484,42 @@ main {
 
 .arch .cluster:nth-child(7) .tile:nth-child(2) {
     content: url(../images/ux/hr/hr03.jpg);
+}
+
+/* UX PORTFOLIO */
+/* ----------------------------------------------- */
+
+.section-solo .box img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+    float: left;;
+}
+
+.section-solo .box h3 {
+    margin-left: 29em;
+}
+
+.client-feature {
+    margin-bottom: 5px;
+    margin-left: 32em;
+}
+
+
+.section-team .box img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+    float: left;;
+}
+
+.section-team .box h3 {
+    margin-left: 29em;
+}
+
+.client-feature {
+    margin-bottom: 5px;
+    margin-left: 32em;
 }
 
 
