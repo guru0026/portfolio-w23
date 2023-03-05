@@ -149,17 +149,17 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
 }
 
 .aboutBanner {
-    background-image: url(../images/aboutbanner.jpg) !important;
+    background-image: url(../images/aboutbannerc.jpg) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
 
 .aboutBanner-text h1, .aboutBanner-text p{
-    color: var(--quat) !important;
+    color: var(--prim) !important;
     text-align: left  !important;
     /* background-color: rgba(104, 104, 104, 0.2) !important;
      */
-    text-shadow: .05rem .05rem #4a628e !important;
+    /* text-shadow: .05rem .05rem var(--sec) !important; */
 }
 
 .index-intro .jumbotron p {
