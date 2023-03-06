@@ -138,6 +138,20 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     /* font-weight: 300 !important; */
 }
 
+.aboutBanner {
+    background-image: url(../images/aboutbannerc.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.aboutBanner-text h1, .aboutBanner-text p{
+    color: var(--prim) !important;
+    text-align: left  !important;
+    /* background-color: rgba(104, 104, 104, 0.2) !important;
+     */
+    /* text-shadow: .05rem .05rem var(--sec) !important; */
+}
+
 .section-heading {
     font-family: 'Lexend', sans-serif;
     font-weight: 700;
@@ -168,19 +182,7 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     text-align: center !important;
 }
 
-.aboutBanner {
-    background-image: url(../images/aboutbannerc.jpg) !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-}
 
-.aboutBanner-text h1, .aboutBanner-text p{
-    color: var(--prim) !important;
-    text-align: left  !important;
-    /* background-color: rgba(104, 104, 104, 0.2) !important;
-     */
-    /* text-shadow: .05rem .05rem var(--sec) !important; */
-}
 
 .index-intro .jumbotron p {
     font-size: 1.1rem;
@@ -197,6 +199,10 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
 
 .index-intro .jumbotron .lit-logo {
     content: url(../images/logo/svgbanner.svg) !important;
+}
+
+.index-intro .jumbotron .lit-map {
+    content: url(../images/map.svg) !important;
 }
 
 /* .index-intro .jumbotron .about-photo { */
