@@ -110,6 +110,29 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     color: var(--sec) !important;
 } 
 
+.dropdown-menu {
+    background-color: var(--prim);
+    border-color: var(--sec);
+    border-radius: 0rem 0rem 1rem 1rem;
+    border-width: 0rem 0.1rem 0.1rem 0.1rem;
+    color: var(--prim) !important;
+    font-family: 'Lexend', sans-serif !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: var(--tert) !important;
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--prim) !important;
+    background-color: var(--sec) !important;
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif !important;
+}
+
+
 /* BANNER CHARACTERISTICS */
 .index-intro {
     width: 100vw;
@@ -120,17 +143,17 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     width: 100%;
     background-color: var(--prim);
     color: var(--tert);
-    margin: 0px;
+    margin: 0rem 0rem 0rem 0rem !important;
     padding: 2rem 0rem; 
 }
 
 .index-intro .jumbotron h1, .index-intro .jumbotron p {
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Lexend', sans-serif !important;
 }
 
 .index-intro .jumbotron h1 {
-    font-size: 1.8rem !important;
+    font-size: 3.5rem !important;
     padding-top: 1rem;
 }
 
@@ -146,19 +169,33 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
 
 .aboutBanner-text h1, .aboutBanner-text p{
     color: var(--prim) !important;
-    text-align: left  !important;
+    /* text-align: left  !important; */
     /* background-color: rgba(104, 104, 104, 0.2) !important;
      */
     /* text-shadow: .05rem .05rem var(--sec) !important; */
 }
 
-.section-heading {
-    font-family: 'Lexend', sans-serif;
+#blue-text-white-bg {
+    color: var(--prim) !important;
+
+}
+
+.section-heading, #h2dark {
+    font-family: 'Lexend', sans-serif !important;
     font-weight: 700;
     font-size: 1.8rem;
     color: var(--prim);
     padding-top: 0.7rem !important;
     margin-top: -3.5rem !important;
+}
+
+.section-heading, #h2light {
+    font-family: 'Lexend', sans-serif !important;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--tert);
+    padding-top: 0.7rem !important;
+    margin-top: -1.5rem !important;
 }
 
 
@@ -172,14 +209,14 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     font-family: 'Rock Salt', sans-serif;
     font-weight: 700;
     color: var(--quat) !important;
-    text-align: center !important;
+    /* text-align: center !important; */
 }
 
 .myName-about {
     font-family: 'Rock Salt', sans-serif;
     font-weight: 700;
     color: var(--sec) !important;
-    text-align: center !important;
+    /* text-align: center !important; */
 }
 
 
@@ -197,7 +234,7 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     content: url(../images/logo/mountain-contour.svg) !important;
 }
 
-.index-intro .jumbotron .lit-logo {
+.index-intro .jumbotron .lit-logo, #graphic-logo {
     content: url(../images/logo/svgbanner.svg) !important;
 }
 
@@ -301,8 +338,9 @@ main {
 /* ABOUT ME - SUMMARY FORMAT */
 
 .summary p{
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-family:'Outfit', sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: 400;
     padding: 1rem;
     line-height: 1.8rem;
     color: var(--prim);
@@ -319,6 +357,21 @@ main {
     padding-bottom: 1.5rem;
     /* margin: 1rem; */
 }
+
+#secondNav {
+    /* display: inline !important;
+    text-decoration: none !important; */
+}
+
+.work-section {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+#cat-container .tile {
+    padding: 0.5rem;
+}
+
 
 /* CAROUSEL CLUSTER IMAGE PATHS */
 .cluster .row .tile:nth-child(1) {
@@ -418,7 +471,7 @@ main {
 }
 
 /* GRAPHIC DESIGN CLUSTER IMAGE PATHS */
-.graphic-design .prime {
+.graphic-design .prime, #batman {
     content: url(../images/graphic-design/batman/batman02.jpg);
 }
 
@@ -430,13 +483,18 @@ main {
     content: url(../images/graphic-design/hybrid/hybrid.jpg);
 }
 
-.graphic-design .cluster:nth-child(5) .tile:nth-child(1) {
+#scaredy-1, .graphic-design .cluster:nth-child(5) .tile:nth-child(1) {
     content: url(../images/graphic-design/scaredycat/scaredycat.jpg);
 }
 
-.graphic-design .cluster:nth-child(5) .tile:nth-child(2) {
+#scaredy-2, .graphic-design .cluster:nth-child(5) .tile:nth-child(2) {
     content: url(../images/graphic-design/scaredycat/cat.jpg);
 }
+
+#scaredy-3, .graphic-design .cluster:nth-child(5) .tile:nth-child(2) {
+    content: url(../images/graphic-design/scaredycat/yarn.png);
+}
+
 
 .graphic-design .cluster:nth-child(6) .tile:nth-child(1) {
     content: url(../images/graphic-design/scifi/scifi.jpg);
@@ -491,6 +549,14 @@ main {
 .arch .cluster:nth-child(7) .tile:nth-child(2) {
     content: url(../images/ux/hr/hr03.jpg);
 }
+
+/* ABOUT PORTFOLIO */
+/* ----------------------------------------------- */
+#arch {
+    content: url(../images/aboutarch4.jpg);
+}
+
+
 
 /* UX PORTFOLIO */
 /* ----------------------------------------------- */
