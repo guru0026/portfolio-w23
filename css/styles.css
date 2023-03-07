@@ -257,12 +257,13 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     padding: .4rem;
 }
 
-.jumbotron button {
+.jumbotron a button {
     border-radius: 2rem !important;
     border-color: var(--sec) !important;
     color: var(--sec) !important;
     font-weight: 500 !important;
     font-family: 'Lexend', sans-serif !important;
+    margin: 1rem;
 }
 
 div .lit-text button:hover {
