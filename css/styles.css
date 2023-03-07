@@ -83,9 +83,9 @@
     color: var(--tert);
 }
 
-.navbar a:hover {
-    /* color: var(--sec) !important; */
-}
+/* .navbar a:hover {
+    color: var(--sec) !important;
+} */
 
 .navbar .active {
     background-color: var(--sec);
@@ -157,9 +157,9 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     padding-top: 1rem;
 }
 
-.index-intro .jumbotron p {
-    /* font-weight: 300 !important; */
-}
+/* .index-intro .jumbotron p {
+    font-weight: 300 !important;
+} */
 
 .aboutBanner {
     background-image: url(../images/aboutbannerc.jpg) !important;
@@ -301,9 +301,9 @@ div .lit-text button:hover {
     box-shadow: 5px 5px var(--sec);
 } */
 
-.car {
-        /* background-color: var(--tert); */
-}
+/* .car {
+        background-color: var(--tert);
+} */
 
 /* i .fa-circle-chevron-right::before {
   width: 20rem !important;
@@ -346,9 +346,19 @@ main {
     color: var(--prim);
 }
 
-.contact h3{
-    padding-left: 1rem;
+.contact-box {
     color: var(--prim);
+    background-color: var(--tert);
+    margin-top: 2rem;
+    padding-top: 3rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    border-color: var(--quat) !important;
+    border-width: 2rem;
+}
+
+#contact-wrapper {
+    margin-bottom: -4.5rem !important;
 }
 
 
@@ -358,10 +368,10 @@ main {
     /* margin: 1rem; */
 }
 
-#secondNav {
-    /* display: inline !important;
-    text-decoration: none !important; */
-}
+/* #secondNav {
+    display: inline !important;
+    text-decoration: none !important;
+} */
 
 .work-section {
     margin-top: -2rem;
@@ -374,8 +384,8 @@ main {
 
 
 /* CAROUSEL CLUSTER IMAGE PATHS */
-.cluster .row .tile:nth-child(1) {
-    content: url(../images/graphic-design/localheroes/lhlogo.jpg);
+#introlh{
+    content: url(../images/graphic-design/localheroes/lhlogowofont.png);
 }
 
 .cluster .row .tile:nth-child(2) {
@@ -420,18 +430,38 @@ main {
     content: url(../images/ux/crackle/crackle06.jpg);
 }
 
-.ux .cluster:nth-child(6) .tile:nth-child(2) {
-    content: url(../images/ux/hr/hr01.jpg);
+#hr1, .ux .cluster:nth-child(6) .tile:nth-child(2) {
+    content: url(../images/ux/hr/Menu.png);
 }
 
-.ux .cluster:nth-child(7) .tile:nth-child(1) {
-    content: url(../images/ux/hr/hr02.jpg);
+#hr2, .ux .cluster:nth-child(7) .tile:nth-child(1) {
+    content: url(../images/ux/hr/Home.png);
 }
 
 .ux .cluster:nth-child(7) .tile:nth-child(2) {
     content: url(../images/ux/hr/hr03.jpg);
 }
 
+#crackle1 {
+    content: url(../images/ux/crackle/LOADING.png)
+}
+
+#crackle2 {
+    content: url(../images/ux/crackle/LOGIN.png)
+}
+
+#crackle3 {
+    content: url(../images/ux/crackle/MAIN.png)
+}
+
+
+#nasa1 {
+    content: url(../images/ux/nasa/Web\ 1920\ –\ 1.png);
+}
+
+#nasa2 {
+    content: url(../images/ux/nasa/iPad\ –\ 1.png);  
+}
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
 
 .photography .prime {
@@ -471,11 +501,16 @@ main {
 }
 
 /* GRAPHIC DESIGN CLUSTER IMAGE PATHS */
+
+#localheroes{
+    content: url(../images/graphic-design/localheroes/lhlogo.png);
+}
+
 .graphic-design .prime, #batman {
     content: url(../images/graphic-design/batman/batman02.jpg);
 }
 
-.graphic-design .cluster:nth-child(3) .tile:nth-child(1) {
+#kayotea, .graphic-design .cluster:nth-child(3) .tile:nth-child(1) {
     content: url(../images/graphic-design/kayotea/Kayotea_Hari.jpg);
 }
 
@@ -496,7 +531,7 @@ main {
 }
 
 
-.graphic-design .cluster:nth-child(6) .tile:nth-child(1) {
+#poster, .graphic-design .cluster:nth-child(6) .tile:nth-child(1) {
     content: url(../images/graphic-design/scifi/scifi.jpg);
 }
 
@@ -556,6 +591,12 @@ main {
     content: url(../images/aboutarch4.jpg);
 }
 
+#portrait {
+    background-image: url(../images/portrait.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height:30rem;
+}
 
 
 /* UX PORTFOLIO */
