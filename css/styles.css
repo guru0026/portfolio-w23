@@ -257,13 +257,27 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     padding: .4rem;
 }
 
+.hometile {
+    background-color: var(--quat);
+    /* min-height: 180px; */
+    border-radius: 2rem;
+    /* box-shadow: 2px 2px 0px 0px var(--tert); */
+    transition: transform .4s ease;
+    /* margin: 1.5rem; */
+    /* padding: .4rem; */
+    border-width: 0.4rem;
+    border-color: var(--quin);
+}
+
 .jumbotron a button {
     border-radius: 2rem !important;
     border-color: var(--sec) !important;
     color: var(--sec) !important;
     font-weight: 500 !important;
     font-family: 'Lexend', sans-serif !important;
-    margin: 1rem;
+    /* margin: 1.5rem; */
+    /* padding: 2rem !important; */
+    width: 7rem;
 }
 
 div .lit-text button:hover {
@@ -271,7 +285,7 @@ div .lit-text button:hover {
     color: var(--prim)!important;
 }
 
-.tile:hover {
+.tile:hover, .hometile:hover {
     transform: scale(1.15);
 }
 
@@ -385,7 +399,15 @@ main {
 
 
 /* CAROUSEL CLUSTER IMAGE PATHS */
-#introlh{
+#introux {
+    content: url(../images/graphic-design/localheroes/lhlogowofont.png);
+}
+
+#intrographic {
+    content: url(../images/graphic-design/localheroes/lhlogowofont.png);
+}
+
+#introphoto {
     content: url(../images/graphic-design/localheroes/lhlogowofont.png);
 }
 
@@ -465,39 +487,54 @@ main {
 }
 /* PHOTOGRAPHY CLUSTER IMAGE PATHS */
 
-.photography .prime {
-    content: url(../images/photography/road/road.jpg);
+#road, .photography .prime {
+    content: url(../images/photography/road/road01.jpg);
 } 
 
-.photography .cluster:nth-child(3) .tile:nth-child(1) {
+#copper, .photography .cluster:nth-child(3) .tile:nth-child(1) {
     content: url(../images/photography/copper/copper.jpg);
 }
 
-.photography .cluster:nth-child(3) .tile:nth-child(2) {
+#cable {
+    content: url(../images/photography/misc/cable.jpg);
+}
+
+#woods {
+    content: url(../images/photography/misc/woods.jpg);
+}
+
+#luna {
+    content: url(../images/photography/misc/luna.jpg);
+}
+
+#sunset {
+    content: url(../images/photography/sunset/sunset.jpg);
+}
+#shadow, .photography .cluster:nth-child(3) .tile:nth-child(2) {
     content: url(../images/photography/shadow/shadow02.jpg);
 }
 
-.photography .cluster:nth-child(7) .tile:nth-child(1) {
+#cave, .photography .cluster:nth-child(7) .tile:nth-child(1) {
     content: url(../images/photography/misc/cave.jpg);
 }
-
+#stairs, 
 .photography .cluster:nth-child(7) .tile:nth-child(2) {
     content: url(../images/photography/stairs/stairs.jpg);
 }
 
-.photography .cluster:nth-child(5) .tile:nth-child(1) {
+#beach, .photography .cluster:nth-child(5) .tile:nth-child(1) {
     content: url(../images/photography/misc/leap.jpg);
 }
 
-.photography .cluster:nth-child(5) .tile:nth-child(2) {
+#lighter, .photography .cluster:nth-child(5) .tile:nth-child(2) {
     content: url(../images/photography/misc/lighter.jpg);
 }
 
-.photography .cluster:nth-child(6) .tile:nth-child(1) {
+#chess, .photography .cluster:nth-child(6) .tile:nth-child(1) {
     content: url(../images/photography/chess/chess.jpg);
 }
 
-.photography .cluster:nth-child(6) .tile:nth-child(2) {
+#leo, .photography .cluster:nth-child(6) .tile:nth-child(2) {
     content: url(../images/photography/misc/leo.jpg);
 }
 
