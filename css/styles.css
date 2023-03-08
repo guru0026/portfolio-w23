@@ -298,8 +298,14 @@ div .lit-text button:hover {
     color: var(--prim)!important;
 }
 
-.tile:hover, .hometile:hover, .card:hover {
+.tile:hover, .hometile:hover {
     transform: scale(1.15);
+}
+.card:hover {
+    transform: scale(1.05);
+    background-color: var(--sec);
+
+
 }
 
 .prime {
@@ -323,6 +329,11 @@ div .lit-text button:hover {
 
 .cluster {
     margin-bottom: 5rem !important;
+}
+
+.carousel-inner {
+    /* margin: 1rem; */
+    border-radius: 2rem;
 }
 
 /* .carousel {
@@ -387,6 +398,8 @@ main {
 
 #contact-wrapper {
     margin-bottom: -4.5rem !important;
+    /* margin-left: 1.5rem !important;
+    margin-right: 5rem !important; */
 }
 
 
@@ -413,7 +426,7 @@ main {
 }
 
 
-/* CAROUSEL CLUSTER IMAGE PATHS */
+/* HOME-CARD CLUSTER IMAGE PATHS */
 #introux {
     content: url(../images/graphic-design/localheroes/lhlogowofont.png);
 }
@@ -427,6 +440,28 @@ main {
 
 #introphoto {
     content: url(../images/graphic-design/localheroes/lhlogowofont.png);
+}
+
+/* CAROUSEL CLUSTER IMAGE PATHS */
+
+#carslide1 {
+    content: url(../images/carousel/crackle01.jpg);
+}
+
+#carslide2 {
+    content: url(../images/carousel/leap-carousel.jpg);
+}
+
+#carslide3 {
+    content: url(../images/carousel/bar-carousel.jpg);
+}
+
+#carslide4 {
+    content: url(../images/carousel/nasa-carousel.jpg);
+}
+
+#carslide5 {
+    content: url(../images/carousel/card-carousel.jpg);
 }
 
 /* .cluster .row .tile:nth-child(2) {
