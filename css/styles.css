@@ -266,7 +266,7 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     background-color: var(--quin);
 }
 
-.card img {
+.card .card-img-top {
     border-radius: 1.5rem 1.5rem 0rem 0rem;
 }
 
@@ -428,7 +428,7 @@ main {
 
 /* HOME-CARD CLUSTER IMAGE PATHS */
 #introux {
-    content: url(../images/graphic-design/localheroes/lhlogowofont.png);
+    content: url(../images/mockup/nasa-carousel-square.jpg);
 }
 
 #intrographic {
@@ -439,7 +439,7 @@ main {
 }
 
 #introphoto {
-    content: url(../images/graphic-design/localheroes/lhlogowofont.png);
+    content: url(../images/photography/road/road01.jpg);
 }
 
 /* CAROUSEL CLUSTER IMAGE PATHS */
