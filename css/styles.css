@@ -257,6 +257,19 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
     padding: .4rem;
 }
 
+.card {
+    border-radius: 2rem;
+    box-shadow: 2px 2px 0px 0px var(--tert);
+    transition: transform .4s ease;
+    /* margin: 1.5rem; */
+    padding: .4rem;
+    background-color: var(--quin);
+}
+
+.card img {
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+}
+
 .hometile {
     background-color: var(--quat);
     /* min-height: 180px; */
@@ -285,12 +298,12 @@ div .lit-text button:hover {
     color: var(--prim)!important;
 }
 
-.tile:hover, .hometile:hover {
+.tile:hover, .hometile:hover, .card:hover {
     transform: scale(1.15);
 }
 
 .prime {
-    background-color: var(--sec);
+    background-color: var(--quin);
     background-image: url(../images/photography/road/road.jpg);
     background-position: center;
     background-size: cover;
@@ -331,7 +344,7 @@ div .lit-text button:hover {
 }
 
 .text-tile {
-    background-color: var(--sec);
+    background-color: var(--quin);
     padding-left: .7rem;
     /* background-image: url(/images/photography/road/road.jpg); */
     background-position: center;
@@ -378,7 +391,9 @@ main {
 
 
 .highlight {
-    background-color: var(--sec) !important;
+    background-image: url(../images/fabric-pattern.svg) !important;
+    background-size:cover;
+    background-repeat: no-repeat;
     padding-bottom: 1.5rem;
     /* margin: 1rem; */
 }
@@ -404,16 +419,19 @@ main {
 }
 
 #intrographic {
-    content: url(../images/graphic-design/localheroes/lhlogowofont.png);
+    content: url(../images/mockup/localheroes-card-square.jpg);
+    /* background-position: center;
+    background-size:cover; */
+    /* min-height:30rem; */
 }
 
 #introphoto {
     content: url(../images/graphic-design/localheroes/lhlogowofont.png);
 }
 
-.cluster .row .tile:nth-child(2) {
+/* .cluster .row .tile:nth-child(2) {
     content: url(../images/architecture/resort.jpg);
-}
+} */
 
 .cluster .row .tile:nth-child(3) {
     content: url(../images/graphic-design/hybrid/hybrid.jpg);
