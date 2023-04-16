@@ -19,6 +19,10 @@
     --quin: #e6d6a818;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* NAVBAR CHARACTERISTICS */
 .navbar {
     background-color: var(--prim);
@@ -140,7 +144,6 @@ nav .navbar-toggler :hover, .navbar-nav :hover {
 }
 
 .index-intro .jumbotron {
-    width: 100%;
     background-color: var(--prim);
     color: var(--tert);
     margin: 0rem 0rem 0rem 0rem !important;
